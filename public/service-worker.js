@@ -1,6 +1,6 @@
-const FILES_TO_CACHE = ["/", "/index.html", "index.js", "style.css"];
+const FILES_TO_CACHE = ["/", "/index.html", "index.js"];
 
-const CACHE_NAME = "static-cache-v3";
+const CACHE_NAME = "static-cache-v4";
 const DATA_CACHE_NAME = "data-cache-v3";
 
 // install

@@ -3,7 +3,8 @@ const logger = require("morgan");
 const mongoose = require("mongoose");
 const compression = require("compression");
 
-const PORT = 3000;
+// to be able to deploy to heroku, added env
+const PORT = process.env.PORT || 3000;
 
 const app = express();
 
@@ -15,13 +16,21 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://localhost/budget", {
+app.use(require("./routes/api.js"));
+
+// mongoose.connect("mongodb://localhost/budget", {
+//   useNewUrlParser: true,
+//   useFindAndModify: false
+// });
+
+// To be able to deploy, added env
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/budget", {
   useNewUrlParser: true,
   useFindAndModify: false
 });
 
 // routes
-app.use(require("./routes/api.js"));
+
 
 app.listen(PORT, () => {
   console.log(`App running on port ${PORT}!`);
