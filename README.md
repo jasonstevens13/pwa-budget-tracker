@@ -8,7 +8,7 @@ A simple example of a progressive web app. Keep track of your budget when you tr
 
 ![screenshot](https://github.com/jasonstevens13/pwa-budget-tracker/blob/master/public/images/screenshot1.JPG)
 
-![screenshot](https://github.com/jasonstevens13/pwa-budget-tracke/blob/master/public/images/screenshot2.JPG)
+![screenshot](https://github.com/jasonstevens13/pwa-budget-tracker/blob/master/public/images/screenshot2.JPG)
 
 
 
