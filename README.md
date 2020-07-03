@@ -6,9 +6,9 @@
 A simple example of a progressive web app. Keep track of your budget when you travel; even when your device loses internet connection. The app is also installable on your device.
 
 
-![screenshot](https://github.com/jasonstevens13/fitness-tracker/blob/master/public/images/screenshot1.JPG)
+![screenshot](https://github.com/jasonstevens13/pwa-budget-tracker/blob/master/public/images/screenshot1.JPG)
 
-![screenshot](https://github.com/jasonstevens13/fitness-tracker/blob/master/public/images/screenshot2.JPG)
+![screenshot](https://github.com/jasonstevens13/pwa-budget-tracke/blob/master/public/images/screenshot2.JPG)
 
 
 
